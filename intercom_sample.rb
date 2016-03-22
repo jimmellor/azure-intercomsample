@@ -1,6 +1,7 @@
 require 'rubygems'
+
+require 'bundler/setup'
 require 'intercom'
-require 'pp'
 require 'time'
 require 'azure'
 require 'json'
