@@ -1,0 +1,7 @@
+{"intercom_app_id" : "APP ID FROM INTERCOM",
+"intercom_api_key" : "APP API FROM INTERCOM",
+"azure_storage_account_name" : "STORAGE ACCOUNT NAME",
+"azure_storage_access_key" : "ACCESS KEY",
+"intercom_table_name" : "TABLE NAME",
+"intercom_partition_key"  : "PARTITION KEY",
+"sample_interval" : "SAMPLE INTERVAL IN SECONDS"}
