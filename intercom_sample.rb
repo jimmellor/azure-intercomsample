@@ -68,7 +68,10 @@ intercom_connection.users.all.each do |user|
     :location_lat => user.location_data.latitude.to_s,
     :location_long => user.location_data.longitude.to_s,
     :location_city => user.location_data.city_name,
-    :zonza_site => user.custom_attributes["site"]
+    :zonza_site => user.custom_attributes["site"],
+    :user_agent_data => user.user_agent_data,
+    :session_count => user.session_count.to_s,
+    :signed_up_at => user.signed_up_at.to_s
     }
     log.info("Inserting into #{intercom_table_name} data #{intercom_data_sample}")
     begin
