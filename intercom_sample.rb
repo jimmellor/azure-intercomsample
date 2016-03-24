@@ -9,7 +9,7 @@ require 'logger'
 log = Logger.new(STDOUT)
 log.level = Logger::INFO
 
-conf_file = File.read('intercom_sample.conf')
+conf_file = File.read("#{File.dirname(__FILE__)}/intercom_sample.conf")
 intercom_sample_settings = JSON.parse(conf_file)
 
 intercom_app_id = intercom_sample_settings['intercom_app_id']
